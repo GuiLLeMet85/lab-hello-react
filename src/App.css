@@ -1,0 +1,108 @@
+p {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 7rem;
+  line-height: 0.9;
+  font-weight: 800;
+  margin-bottom: 2vh;
+
+}
+
+h2 {
+  font-size: 2.2rem;
+  font-weight: 300;
+  margin-bottom: 18vh;
+}
+
+h3 {
+  font-size: 2rem;
+  color:#666
+}
+
+a.butAw {
+  text-decoration: none;
+  padding: 3.5vh 2vw;
+  background-color: white;
+  border-radius: 4px;
+}
+
+
+.App {
+  text-align: center;
+  margin: 2vh 2vw;
+  height: 100vh;
+}
+
+.topsection {
+  background-color: #282c34;
+  text-align: left;
+  padding: 2vh 5vw 5vh;
+}
+
+.text-intro {
+  width: 40vw;
+}
+
+
+.menu ul {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0vh 1vw;
+}
+
+li {
+  list-style: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bottom-st {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+} 
+
+.bottomsection {
+  padding: 2vh 5vw 15vh;
+  margin: 15vh auto 
+}
+
+.blurb {
+  width: 10vw;
+}
+
+.blurb p{
+  font-size: 1.4rem;
+  color: #666;
+}
