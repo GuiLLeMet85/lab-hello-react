@@ -93,7 +93,7 @@ h3 {
   font-size: 2rem;
   color: #282c34;
   font-weight: 700;
-
+  margin: 2vh auto;
 }
 
 a.butAw {
@@ -101,6 +101,8 @@ a.butAw {
   padding: 3.5vh 2vw;
   background-color: white;
   border-radius: 4px;
+  font-weight: 600;
+  color: #282c34;
 }
 
 
@@ -113,7 +115,7 @@ a.butAw {
 .topsection {
   background-color: #282c34;
   text-align: left;
-  padding: 2vh 5vw 5vh;
+  padding: 5vh 5vw;
 }
 
 .text-intro {
@@ -147,6 +149,7 @@ li {
   justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin-top: -5vh;
 }
 
 .App-link {
@@ -161,19 +164,42 @@ li {
     transform: rotate(360deg);
   }
 }
-
+/*
 .image-bkg {
   background-image: url("/src/images/logo512.png");
   z-index: 1;
 }
 
+*/
+
+.image-bkg {
+  margin-right: 0px;
+  width: 31vw;
+}
+
+
+img.biggestlogo {
+  width: 70%;
+    opacity: 5%;
+
+}
+
+img.biglogo {
+    width: 55%;
+    opacity: 5%;
+}
 .image-skg {
+  margin-right: -10vw;
   flex-direction: column;
   display: flex;
+  right: 0;
+  right: -10;
+  margin-left: 10vw;
 }
 
 img.smalllogo {
   margin: 2vh auto;
+  opacity: 10%;
 } 
 
 .bottom-st {
@@ -188,10 +214,18 @@ img.smalllogo {
 }
 
 .blurb {
-  width: 10vw;
+  width: 13vw;
 }
 
 .blurb p{
   font-size: 1.4rem;
   color: #282c34;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
 }

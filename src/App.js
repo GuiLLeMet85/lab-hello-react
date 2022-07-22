@@ -8,15 +8,18 @@ import Bottom from './components/Bottom';
 function App() {
   return (
     <>
+    <body>
     <div className="App">
          <div className="topsection">
               <Menu />
               <Header/> 
-          </div>
+           </div>
           <div className="bottomsection">         
             <Bottom/>  
           </div>
+         
     </div>
+    </body>
     </>
   );
 }
